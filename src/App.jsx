@@ -70,7 +70,7 @@ const App = () => {
       <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-zinc-950/90 backdrop-blur-md border-b border-zinc-800 py-3' : 'bg-transparent py-6'}`}>
         <div className="container mx-auto px-6 flex justify-between items-center">
           <div className="cursor-pointer" onClick={() => window.scrollTo(0, 0)}>
-            <img src="/style/img/logo.png" alt="Lumina Detail Logo" className="h-20" />
+            <img src="/style/img/logo.png" alt="Lumina Detail Logo" className="h-14 md:h-20" />
           </div>
 
           {/* Desktop Menu */}
@@ -130,7 +130,7 @@ const App = () => {
             <span className="inline-block py-1 px-3 rounded-full bg-blue-500/10 border border-blue-500/30 text-blue-400 text-xs font-bold tracking-widest uppercase mb-6">
               Estética Automotiva Premium
             </span>
-            <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6 text-white">
+            <h1 className="text-4xl md:text-7xl font-bold leading-tight mb-6 text-white">
               Seu carro com aparência de <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">zero km</span> novamente.
             </h1>
             <p className="text-lg md:text-xl text-gray-300 mb-10 font-light leading-relaxed max-w-2xl">
@@ -443,7 +443,7 @@ const App = () => {
 
             {/* Form */}
             <div className="lg:w-1/2">
-              <div className="bg-zinc-900 border border-zinc-800 p-8 rounded-2xl shadow-xl relative overflow-hidden">
+              <div className="bg-zinc-900 border border-zinc-800 p-6 md:p-8 rounded-2xl shadow-xl relative overflow-hidden">
                 {/* Badge no Form */}
                 <div className="absolute top-0 right-0 bg-blue-900/30 px-4 py-2 rounded-bl-xl border-l border-b border-blue-500/20">
                   <p className="text-[10px] text-blue-300 font-bold tracking-wider uppercase">App em Breve 🚀</p>
@@ -542,7 +542,7 @@ const App = () => {
               </p>
             </div>
 
-            <div className="flex space-x-6 mb-6 md:mb-0">
+            <div className="flex space-x-6 mb-6 md:mb-0 justify-center md:justify-start">
               <a href="https://www.instagram.com/brilhacar_esteticaac/" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors"><Instagram size={24} /></a>
               <a href="https://wa.me/5548991900176" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors"><MessageCircle size={24} /></a>
               <a href="https://www.google.com/maps/search/?api=1&query=Av.+João+Antônio+Besen,+S/N+-+Antônio+Carlos,+Santa+Catarina+-+SC" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors"><MapPin size={24} /></a>
