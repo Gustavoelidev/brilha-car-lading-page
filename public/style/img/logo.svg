@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 60" fill="none">
+  <!-- Icon -->
+  <path d="M30 30L40 10L50 30L70 40L50 50L40 70L30 50L10 40L30 30Z" fill="#3B82F6"/>
+  <path d="M40 30L45 20L50 30L60 35L50 40L45 50L40 40L30 35L40 30Z" fill="white"/>
+  
+  <!-- Text -->
+  <text x="80" y="42" font-family="sans-serif" font-weight="bold" font-size="32" fill="white" letter-spacing="1">LUMINA</text>
+  <circle cx="218" cy="38" r="3" fill="#3B82F6"/>
+  <text x="228" y="42" font-family="sans-serif" font-weight="300" font-size="32" fill="white" letter-spacing="1">DETAIL</text>
+</svg>
